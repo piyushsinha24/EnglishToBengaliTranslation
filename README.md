@@ -1,8 +1,8 @@
-Miwok App
+EnglishToBengali Translation App
 ===================================
 
-This app displays lists of vocabulary words for the user to learn the Miwok language.
-Used in a Udacity course in the Beginning Android Nanodegree.
+This app displays lists of vocabulary words for the user to learn the Bengali language.
+Based on what I learnt in Udacity course in the Beginning Android Nanodegree.
 
 Pre-requisites
 --------------
