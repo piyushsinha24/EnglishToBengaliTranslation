@@ -17,13 +17,13 @@ public class ColoursActivity extends AppCompatActivity {
         setContentView(R.layout.words_list);
         // Create a list of words
         final ArrayList<word> words = new ArrayList<word>();
-        words.add(new word("Red", "Lāla",R.drawable.color_red,R.raw.number_one));
-        words.add(new word("Brown", "Bādāmī",R.drawable.color_brown,R.raw.number_one));
-        words.add(new word("Yellow", "Haluda",R.drawable.color_mustard_yellow,R.raw.number_one));
-        words.add(new word("Black", "Kālō",R.drawable.color_black,R.raw.number_one));
-        words.add(new word("Green", "Sabuja",R.drawable.color_green,R.raw.number_one));
-        words.add(new word("White", "Sādā",R.drawable.color_white,R.raw.number_one));
-        words.add(new word("Gray", "Dhūsara",R.drawable.color_gray,R.raw.number_one));
+        words.add(new word("Red", "Lāla",R.drawable.color_red,R.raw.lal));
+        words.add(new word("Brown", "Bādāmī",R.drawable.color_brown,R.raw.badami));
+        words.add(new word("Yellow", "Haluda",R.drawable.color_mustard_yellow,R.raw.holud));
+        words.add(new word("Black", "Kālō",R.drawable.color_black,R.raw.kalo));
+        words.add(new word("Green", "Sabuja",R.drawable.color_green,R.raw.sobuj));
+        words.add(new word("White", "Sādā",R.drawable.color_white,R.raw.sada));
+        words.add(new word("Gray", "Dhūsara",R.drawable.color_gray,R.raw.dhusor));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

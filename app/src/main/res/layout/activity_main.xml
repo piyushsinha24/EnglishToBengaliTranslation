@@ -33,12 +33,11 @@
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
     <TextView
-        android:text="Developed By Piyush Sinha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
-        android:padding="30dp"
-        android:textStyle="italic"
+        android:id="@+id/info"
+        style="@style/CategoryStyle"
+        android:background="@color/red"
+        android:text="App Info" />
+
         />
 
 </LinearLayout>

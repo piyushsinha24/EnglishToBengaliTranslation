@@ -15,6 +15,11 @@ public class word {
         mMiwokTranslation = miwokTranslation;
         mAudioResourceId=AudioResourceId;
     }
+    public  word(String defaultTranslation, String miwokTranslation) {
+        mDefaultTranslation = defaultTranslation;
+        mMiwokTranslation = miwokTranslation;
+
+    }
     public  word(String defaultTranslation, String miwokTranslation,int ImageResourceId,int AudioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;

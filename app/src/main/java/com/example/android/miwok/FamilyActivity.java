@@ -17,18 +17,18 @@ public class FamilyActivity extends AppCompatActivity {
         setContentView(R.layout.words_list);
         // Create a list of words
        final ArrayList<word> words = new ArrayList<word>();
-        words.add(new word("Grandfather", "Pitāmaha",R.drawable.family_grandfather,R.raw.number_one));
-        words.add(new word("Grandmother", "Nānī",R.drawable.family_grandmother,R.raw.number_one));
-        words.add(new word("Father", "Pitā",R.drawable.family_father,R.raw.number_one));
-        words.add(new word("Mother", "Mā",R.drawable.family_mother,R.raw.number_one));
-        words.add(new word("Elder Sister", "Baṛa bōna",R.drawable.family_older_sister,R.raw.number_one));
-        words.add(new word("Elder Brother", "Baṛa bhā'i",R.drawable.family_older_brother,R.raw.number_one));
-        words.add(new word("Son", "Putra",R.drawable.family_son,R.raw.number_one));
-        words.add(new word("Daughter", "Kan'yā",R.drawable.family_daughter,R.raw.number_one));
-        words.add(new word("Uncle", "Cācā",R.drawable.family_father,R.raw.number_one));
-        words.add(new word("Aunt", "Māsi",R.drawable.family_mother,R.raw.number_one));
-        words.add(new word("Younger Brother", "Chōṭa bhā'i",R.drawable.family_younger_brother,R.raw.number_one));
-        words.add(new word("Younger Sister", "Chōṭa bōna",R.drawable.family_younger_sister,R.raw.number_one));
+        words.add(new word("Grandfather", "Pitāmaha",R.drawable.family_grandfather,R.raw.pitamaha));
+        words.add(new word("Grandmother", "Nānī",R.drawable.family_grandmother,R.raw.nani));
+        words.add(new word("Father", "Pitā",R.drawable.family_father,R.raw.pita));
+        words.add(new word("Mother", "Mā",R.drawable.family_mother,R.raw.ma));
+        words.add(new word("Elder Sister", "Baṛa bōna",R.drawable.family_older_sister,R.raw.baro_bon));
+        words.add(new word("Elder Brother", "Baṛa bhā'i",R.drawable.family_older_brother,R.raw.baro_bhai));
+        words.add(new word("Son", "Putra",R.drawable.family_son,R.raw.putra));
+        words.add(new word("Daughter", "Kan'yā",R.drawable.family_daughter,R.raw.kanya));
+        words.add(new word("Uncle", "Cācā",R.drawable.family_father,R.raw.kaka));
+        words.add(new word("Aunt", "Māsi",R.drawable.family_mother,R.raw.masi));
+        words.add(new word("Younger Brother", "Chōṭa bhā'i",R.drawable.family_younger_brother,R.raw.choto_bhai));
+        words.add(new word("Younger Sister", "Chōṭa bōna",R.drawable.family_younger_sister,R.raw.choto_bon));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

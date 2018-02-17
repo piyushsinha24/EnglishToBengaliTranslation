@@ -9,20 +9,15 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class PhrasesActivity extends AppCompatActivity {
+public class Info extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.words_list);
-        // Create a list of words
         final ArrayList<word> words = new ArrayList<word>();
-        words.add(new word("Good morning", "Suprabhāta",R.raw.suprobhat));
-        words.add(new word("Good Afternoon", "Śubha aparāhna",R.raw.subhoaporanho));
-        words.add(new word("Good Night", "Śubha rātri",R.raw.subhoratri));
-        words.add(new word("How are you?", "\n" +
-                "Āpani kēmana āchēna",R.raw.apni_kamon_achen));
-        words.add(new word("I am fine", "Āmi bhālō āchi",R.raw.ami_bhalo_achi));
+        words.add(new word("Developer", "Piyush Sinha"));
+        words.add(new word("Audio Credits", "Manab Saha"));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
@@ -37,14 +32,6 @@ public class PhrasesActivity extends AppCompatActivity {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                word w =  words.get(position);
-                MediaPlayer mediaPlayer = MediaPlayer.create(PhrasesActivity.this,w.getAudioResourceId());
-                mediaPlayer.start();
-            }
-        });
+
     }
 }
-
